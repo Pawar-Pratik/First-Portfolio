@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #272727;
+}
+
+
+/* Navigation */
+
+.nav-container {
+    background: #000000;
+    border-radius: 0px;
+    height: 75px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav .logo {
+    font-family: "poppins" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-items li:nth-last-of-type(1){
+    margin: 0;
+}
+
+.nav-items li a{
+    color: #FFFFFF;
+    font-family: "poppins", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* Header */
+
+.header-container {
+    background: #272727 url('images/BG1.svg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+header p {
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 500px;
+    margin-bottom: 24px;
+}
+header a{
+    font-family: "cabin", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+    background: linear-gradient(90deg, #00FFE0 0%, #F800EE 100%);
+    box-shadow: 0px 17px 36px rgba(219, 90, 230, 0.58);
+    border-radius: 18px;
+    padding: 10px 38px;
+    display: inline-block;
+    transition: 350ms;
+}
+header a:hover {
+    transform: translateY(8px);
+}
+header .hero-image img {
+    transition: 350ms;
+}
+
+/* page 2 */
+.wrapper .p1 pre{
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.wrapper .p2 pre{
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-top: 50px;
+}
+.about {
+    background:#272727 url('images/BG2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* page 3 */
+.contact {
+    background:#272727 url('images/BG3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.contact{
+    align-items: center;
+    display: flex;
+}
+.hd h1 {
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 64px;
+    margin-top: 10%;
+    margin-bottom: 24px;
+    text-align: center;
+
+}
+.social h2 {
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 2.5%;
+}
+.social img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.official h2 {
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 7.5%;
+    margin-bottom: 2.5%;
+}
+images{
+    display: flex;
+    justify-content: center;
+}
+.doc{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.doc a{
+    font-family: "cabin", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+    background: linear-gradient(89.39deg, #3DD1BF 0.53%, #7F35F8 99.47%);
+    box-shadow: 0px 8px 30px rgba(67, 195, 197, 0.9);
+    border-radius: 15px;
+    padding: 10px 38px;
+    display: inline-block;
+    transition: 350ms;
+}
+.tx{
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    font-size: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
